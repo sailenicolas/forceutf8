@@ -188,7 +188,7 @@ class Encoding
 
         $max = self::strlen($text);
         $generate_cc = function ($c1) {
-            $cc1 = (chr(ord($c1) / 64) | "\xc0");
+            $cc1 = (chr(intdiv(ord($c1), 64)) | "\xc0");
             $cc2 = ($c1&"\x3f") | "\x80";
             return $cc1 . $cc2;
         };
