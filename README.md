@@ -18,6 +18,11 @@ Update:
 
 I've included another function, \ForceUTF8\Encoding::fixUTF8(), which will fix the double (or multiple) encoded UTF8 string that looks garbled.
 
+Install via composer:
+=====================
+
+```composer require sailenicolas/forceutf8```
+
 Usage:
 ======
 
@@ -83,21 +88,3 @@ will output:
     šž
     ceeišuuž
 
-
-Install via composer:
-=====================
-Edit your composer.json file to include the following:
-
-```json
-{
-    "require": {
-        "neitanod/forceutf8": "~2.0"
-    }
-}
-```
-
-Tips:
-=====
-You can tip me with Bitcoin if you want. :)
-
-<img src="resources/wallet.jpg" width="225" alt="1Awfu4TZpy99H7Pyzt1mooxU1aP2mJVdHP">
