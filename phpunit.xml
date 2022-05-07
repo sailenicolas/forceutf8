@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <phpunit bootstrap="./vendor/autoload.php">
     <testsuites>
-        <testsuite name="My Project - TestSuite">
-            <directory>test</directory>
+        <testsuite name="ForceUTF8 - TestSuite">
+            <directory>tests</directory>
         </testsuite>
     </testsuites>
 
